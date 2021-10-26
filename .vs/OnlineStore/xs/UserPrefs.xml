@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{A4E5E2AE-547E-4DB3-81D4-53BE7DEC71A8}|Default">
+  <MonoDevelop.Ide.ItemProperties.OnlineStore.AdminBlazorServer PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="OnlineStore" expanded="True">
+            <Node name="OnlineStore.AdminBlazorServer" selected="True" />
+            <Node name="OnlineStore.Infrastructure" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
