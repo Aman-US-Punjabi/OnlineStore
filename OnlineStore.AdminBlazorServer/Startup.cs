@@ -27,15 +27,39 @@ namespace OnlineStore.AdminBlazorServer
 
         public IConfiguration Configuration { get; }
 
+
+        // Configure Services for Development Environment
+        // Project will use these Configuration Services while running in Dev mode
+        public void ConfigureDevelopmentServices(IServiceCollection services)
+        {
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlite(
+                    Configuration.GetConnectionString("DefaultConnection")));
+
+            ConfigureServices(services);
+        }
+
+
+        // Configure Services for Production Environment
+        // Project will use these Configuration Services while running in Production mode
+        public void ConfigureProductionServices(IServiceCollection services)
+        {
+
+            services.AddDbContext<ApplicationDbContext>(options =>
+                options.UseSqlite(
+                    Configuration.GetConnectionString("DefaultConnection")));
+
+            ConfigureServices(services);
+        }
+
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
