@@ -9,11 +9,17 @@
     <None Remove="Entities\BaseEntities\" />
     <None Remove="Entities\Catalog\" />
     <None Remove="Interfaces\" />
+    <None Remove="Interfaces\Repositories\" />
+    <None Remove="Ardalis.Specification" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
     <Folder Include="Entities\BaseEntities\" />
     <Folder Include="Entities\Catalog\" />
     <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Specification" Version="5.2.0" />
   </ItemGroup>
 </Project>

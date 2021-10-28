@@ -13,6 +13,7 @@
     <None Remove="Ardalis.Specification.EntityFrameworkCore" />
     <None Remove="Data\" />
     <None Remove="Identity\" />
+    <None Remove="Repositories\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.11" />
@@ -31,5 +32,6 @@
   <ItemGroup>
     <Folder Include="Data\" />
     <Folder Include="Identity\" />
+    <Folder Include="Repositories\" />
   </ItemGroup>
 </Project>
