@@ -109,13 +109,15 @@ using OnlineStore.AdminBlazorServer.Shared;
             __builder.OpenElement(18, "div");
             __builder.AddAttribute(19, "class", "content px-4");
             __builder.AddAttribute(20, "b-rc4a11dbur");
+            __builder.AddContent(21, 
 #nullable restore
 #line 15 "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/Shared/MainLayout.razor"
-__builder.AddContent(21, Body);
+             Body
 
 #line default
 #line hidden
 #nullable disable
+            );
             __builder.CloseElement();
             __builder.CloseElement();
             __builder.CloseElement();
