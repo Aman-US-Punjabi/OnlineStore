@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "603I+RmCQOezrd0r9Tl+aI/9dsghQ2bnsAOBlsY5HwUb0Rpybv8VUVJxBPqhFNG+Q2K0W6mPgZsIcjWmlhvFbQ==",
+  "dgSpecHash": "hcgF7ANjHWmHZVq9eyxu+bcdy9255brL0yJl8Joh37trEvy44T891zMpGhF7rdTfl7MFCU0BmfFOiZpfX6t7Ag==",
   "success": true,
   "projectFilePath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/amandeepsingh/.nuget/packages/ardalis.specification/5.2.0/ardalis.specification.5.2.0.nupkg.sha512"
+  ],
   "logs": []
 }

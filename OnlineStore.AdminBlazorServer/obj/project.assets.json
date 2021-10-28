@@ -584,6 +584,9 @@
       "OnlineStore.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Ardalis.Specification": "5.2.0"
+        },
         "compile": {
           "bin/placeholder/OnlineStore.Core.dll": {}
         },
