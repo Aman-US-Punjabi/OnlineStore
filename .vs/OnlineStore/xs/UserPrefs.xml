@@ -1,38 +1,15 @@
 ﻿<Properties StartupConfiguration="{4B830537-9744-4332-BB73-EABDE1A9C2A0}|Default">
   <MonoDevelop.Ide.ItemProperties.OnlineStore.AdminBlazorServer PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
-    <Files>
-      <File FileName="OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj" Line="1" Column="1" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/6.0.100-rc.2.21505.57/Sdks/Microsoft.NET.Sdk/targets/Microsoft.NET.Sdk.targets" Line="550" Column="5" />
-      <File FileName="OnlineStore.AdminBlazorServer/appsettings.json" Line="2" Column="1" />
-      <File FileName="OnlineStore.AdminBlazorServer/Pages/Counter.razor" Line="17" Column="1" />
-      <File FileName="OnlineStore.AdminBlazorServer/Startup.cs" Line="44" Column="79" />
-      <File FileName="OnlineStore.Infrastructure/Identity/AppIdentityDbContext.cs" Line="18" Column="84" />
-      <File FileName="OnlineStore.AdminBlazorServer/Program.cs" Line="17" Column="1" />
-      <File FileName="OnlineStore.AdminBlazorServer/OnlineStore.AdminBlazorServer.csproj" Line="1" Column="1" />
-      <File FileName="README.md" Line="37" Column="210" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnlineStore" expanded="True">
             <Node name="Solution Items" expanded="True" />
             <Node name="OnlineStore.AdminBlazorServer" expanded="True">
-              <Node name="Areas" expanded="True">
-                <Node name="Identity" expanded="True">
-                  <Node name="Pages" expanded="True">
-                    <Node name="Account" expanded="True" />
-                    <Node name="Shared" expanded="True">
-                      <Node name="_LoginPartial.cshtml" selected="True" />
-                    </Node>
-                  </Node>
-                </Node>
-              </Node>
+              <Node name="Startup.cs" selected="True" />
             </Node>
-            <Node name="OnlineStore.Core" expanded="True" />
-            <Node name="OnlineStore.Infrastructure" expanded="True">
-              <Node name="Identity" expanded="True" />
-            </Node>
+            <Node name="OnlineStore.Infrastructure" expanded="True" />
           </Node>
         </State>
       </Pad>
