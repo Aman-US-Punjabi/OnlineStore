@@ -1,10 +1,6 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "fXzzo3IWaTM6hdO7xs6nPjyWI3U1BllFz4Lq7t86cwCg61xmc/yXX7n5lER39oHpluh0kjoVqsb7HlfR4XdRaA==",
-=======
-  "dgSpecHash": "PpBe0nm7TPo6kC8nDl3xpBRr0k8hzos7vLMh33y066wn2VBEE3/DkYU6iXIpoqW8AJgHkO48xszgaac7Z30R2w==",
->>>>>>> dev
+  "dgSpecHash": "n41PIrLJbpOY9lWkVY0FH6EB6R8TTeRVMXFm+lruqRwf/5OGge/GeuBlIYHo4iHOoFgtmfpjr2MggafuTVr0Nw==",
   "success": true,
   "projectFilePath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -37,5 +33,12 @@
     "/Users/amandeepsingh/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
     "/Users/amandeepsingh/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

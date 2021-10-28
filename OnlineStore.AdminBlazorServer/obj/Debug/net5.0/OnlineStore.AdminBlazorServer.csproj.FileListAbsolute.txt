@@ -102,3 +102,6 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Infrastructure.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Infrastructure.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Core.pdb
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Ardalis.Specification.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Ardalis.Specification.EntityFrameworkCore.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/AutoMapper.dll

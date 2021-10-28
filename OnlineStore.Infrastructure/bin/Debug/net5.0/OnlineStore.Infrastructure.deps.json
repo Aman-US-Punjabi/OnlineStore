@@ -279,7 +279,12 @@
           }
         }
       },
-      "System.Reflection.Emit/4.7.0": {}
+      "System.Reflection.Emit/4.7.0": {},
+      "OnlineStore.Core/1.0.0": {
+        "runtime": {
+          "OnlineStore.Core.dll": {}
+        }
+      }
     }
   },
   "libraries": {
@@ -483,6 +488,11 @@
       "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
       "path": "system.reflection.emit/4.7.0",
       "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "OnlineStore.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
