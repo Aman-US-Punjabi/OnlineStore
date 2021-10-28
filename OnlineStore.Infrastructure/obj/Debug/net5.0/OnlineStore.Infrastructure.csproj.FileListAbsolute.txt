@@ -4,8 +4,6 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/bin/Debug/net5.0/OnlineStore.Infrastructure.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/bin/Debug/net5.0/ref/OnlineStore.Infrastructure.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/bin/Debug/net5.0/OnlineStore.Infrastructure.pdb
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/bin/Debug/net5.0/OnlineStore.Core.dll
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/bin/Debug/net5.0/OnlineStore.Core.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.csproj.AssemblyReference.cache
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.AssemblyInfoInputs.cache
