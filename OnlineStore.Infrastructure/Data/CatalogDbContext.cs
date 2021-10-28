@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Reflection;
 using Microsoft.EntityFrameworkCore;
+using OnlineStore.Core.Entities.Catalog;
 
 namespace OnlineStore.Infrastructure.Data
 {
@@ -13,7 +14,8 @@ namespace OnlineStore.Infrastructure.Data
         /*
          *  Add Database Tables over here
          */
-        //public DbSet<Item> Items { get; set; }
+        public DbSet<Product> Products { get; set; }
+        public DbSet<ProductImage> ProductImages { get; set; }
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

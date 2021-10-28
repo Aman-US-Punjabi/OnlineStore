@@ -2,22 +2,44 @@
   <MonoDevelop.Ide.ItemProperties.OnlineStore.AdminBlazorServer PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="README.md">
     <Files>
+<<<<<<< HEAD
+=======
+      <File FileName="OnlineStore.Core/Entities/BaseEntities/AuditableEntity.cs" Line="8" Column="1" />
+>>>>>>> feature/add-Product-Photo-entities-in-Core-Project
       <File FileName="OnlineStore.Core/Entities/BaseEntities/BaseEntity.cs" Line="9" Column="1" />
       <File FileName="OnlineStore.Core/Entities/Catalog/Product.cs" Line="20" Column="1" />
       <File FileName="OnlineStore.Core/Interfaces/IAggregateRoot.cs" Line="1" Column="1" />
       <File FileName="OnlineStore.Core/Entities/Catalog/ProductImage.cs" Line="15" Column="36" />
+<<<<<<< HEAD
       <File FileName="OnlineStore.Infrastructure/Data/CatalogDbContext.cs" Line="16" Column="35" />
       <File FileName="README.md" Line="44" Column="5" />
+=======
+      <File FileName="OnlineStore.Infrastructure/Data/CatalogDbContext.cs" Line="18" Column="49" />
+      <File FileName="README.md" Line="1" Column="1" />
+>>>>>>> feature/add-Product-Photo-entities-in-Core-Project
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnlineStore" expanded="True">
+<<<<<<< HEAD
             <Node name="Solution Items" expanded="True" />
             <Node name="OnlineStore.AdminBlazorServer" expanded="True">
               <Node name="catalog.db" selected="True" />
             </Node>
             <Node name="OnlineStore.Core" expanded="True" />
+=======
+            <Node name="Solution Items" expanded="True">
+              <Node name="/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/README.md" selected="True" />
+            </Node>
+            <Node name="OnlineStore.Core" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="BaseEntities" expanded="True" />
+                <Node name="Catalog" expanded="True" />
+              </Node>
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+>>>>>>> feature/add-Product-Photo-entities-in-Core-Project
             <Node name="OnlineStore.Infrastructure" expanded="True">
               <Node name="Data" expanded="True" />
             </Node>
