@@ -15,6 +15,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using OnlineStore.AdminBlazorServer.Areas.Identity;
 using OnlineStore.AdminBlazorServer.Data;
+using OnlineStore.Infrastructure.Data;
+using OnlineStore.Infrastructure.Identity;
 
 namespace OnlineStore.AdminBlazorServer
 {
@@ -33,9 +35,13 @@ namespace OnlineStore.AdminBlazorServer
         public void ConfigureDevelopmentServices(IServiceCollection services)
         {
 
-            services.AddDbContext<ApplicationDbContext>(options =>
+            services.AddDbContext<CatalogDbContext>(options =>
                 options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("CatalogDbConnection")));
+
+            services.AddDbContext<AppIdentityDbContext>(options =>
+                options.UseSqlite(
+                    Configuration.GetConnectionString("IdentityConnection")));
 
             ConfigureServices(services);
         }
@@ -46,9 +52,15 @@ namespace OnlineStore.AdminBlazorServer
         public void ConfigureProductionServices(IServiceCollection services)
         {
 
-            services.AddDbContext<ApplicationDbContext>(options =>
+            Console.WriteLine("****************** Production   **************************");
+            services.AddDbContext<CatalogDbContext>(options =>
                 options.UseSqlite(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                    Configuration.GetConnectionString("CatalogDbConnection")));
+
+            services.AddDbContext<AppIdentityDbContext>(options =>
+                options.UseSqlite(
+                    Configuration.GetConnectionString("IdentityConnection")));
+
 
             ConfigureServices(services);
         }
@@ -57,12 +69,14 @@ namespace OnlineStore.AdminBlazorServer
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-                .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddIdentity<ApplicationUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = true)
+                .AddDefaultUI()
+                .AddEntityFrameworkStores<AppIdentityDbContext>()
+                .AddDefaultTokenProviders();
 
             services.AddRazorPages();
             services.AddServerSideBlazor();
-            services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<IdentityUser>>();
+            services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<ApplicationUser>>();
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddSingleton<WeatherForecastService>();
         }

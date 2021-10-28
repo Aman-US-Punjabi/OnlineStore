@@ -17,7 +17,7 @@
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/Users/amandeepsingh/.config/NuGet/NuGet.Config"
+          "/Users/amandeepsingh/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
@@ -28,7 +28,14 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj": {
+                "projectPath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj"
+              },
+              "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj": {
+                "projectPath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -80,7 +87,149 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.100-rc.2.21505.57/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj",
+        "projectName": "OnlineStore.Core",
+        "projectPath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj",
+        "packagesPath": "/Users/amandeepsingh/.nuget/packages/",
+        "outputPath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/amandeepsingh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj",
+        "projectName": "OnlineStore.Infrastructure",
+        "projectPath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj",
+        "packagesPath": "/Users/amandeepsingh/.nuget/packages/",
+        "outputPath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/amandeepsingh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj": {
+                "projectPath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/OnlineStore.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Ardalis.Specification": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Ardalis.Specification.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.11, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
         }
       }
     }
