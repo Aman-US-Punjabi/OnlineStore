@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "U61rh9VAvcJ+feimwlI4yNtidmCtNKnRISpeLCmtW+amF1omGn7xvrif13dY6LauyZegEZpfVUbNNPUQdA9iUA==",
+  "dgSpecHash": "udiR0+OO5MSpWPjUuCVS/k45t5mcTkzCzk9hDGS+ZON7yXR5d0Wvoqt6LZnpRgvVzVxb2TEInV2uMKq1G2Qqew==",
   "success": true,
   "projectFilePath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/OnlineStore.AdminBlazorServer.csproj",
   "expectedPackageFiles": [
+    "/Users/amandeepsingh/.nuget/packages/ardalis.specification/5.2.0/ardalis.specification.5.2.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/ardalis.specification.entityframeworkcore/5.2.0/ardalis.specification.entityframeworkcore.5.2.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
     "/Users/amandeepsingh/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/Users/amandeepsingh/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.11/microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
     "/Users/amandeepsingh/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.11/microsoft.aspnetcore.cryptography.keyderivation.5.0.11.nupkg.sha512",
@@ -42,7 +45,8 @@
     "/Users/amandeepsingh/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/Users/amandeepsingh/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/Users/amandeepsingh/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
-    "/Users/amandeepsingh/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512"
+    "/Users/amandeepsingh/.nuget/packages/system.memory/4.5.3/system.memory.4.5.3.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
   ],
   "logs": []
 }

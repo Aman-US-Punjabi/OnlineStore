@@ -1,0 +1,12 @@
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/bin/Debug/net5.0/OnlineStore.Core.deps.json
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/bin/Debug/net5.0/OnlineStore.Core.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/bin/Debug/net5.0/ref/OnlineStore.Core.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/bin/Debug/net5.0/OnlineStore.Core.pdb
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/OnlineStore.Core.csproj.AssemblyReference.cache
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/OnlineStore.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/OnlineStore.Core.AssemblyInfoInputs.cache
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/OnlineStore.Core.AssemblyInfo.cs
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/OnlineStore.Core.csproj.CoreCompileInputs.cache
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/OnlineStore.Core.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/ref/OnlineStore.Core.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Core/obj/Debug/net5.0/OnlineStore.Core.pdb

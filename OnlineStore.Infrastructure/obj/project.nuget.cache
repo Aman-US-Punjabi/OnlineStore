@@ -1,8 +1,41 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "fXzzo3IWaTM6hdO7xs6nPjyWI3U1BllFz4Lq7t86cwCg61xmc/yXX7n5lER39oHpluh0kjoVqsb7HlfR4XdRaA==",
+=======
+  "dgSpecHash": "PpBe0nm7TPo6kC8nDl3xpBRr0k8hzos7vLMh33y066wn2VBEE3/DkYU6iXIpoqW8AJgHkO48xszgaac7Z30R2w==",
+>>>>>>> dev
   "success": true,
   "projectFilePath": "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/OnlineStore.Infrastructure.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/amandeepsingh/.nuget/packages/ardalis.specification/5.2.0/ardalis.specification.5.2.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/ardalis.specification.entityframeworkcore/5.2.0/ardalis.specification.entityframeworkcore.5.2.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/automapper/10.1.1/automapper.10.1.1.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.aspnetcore.cryptography.internal/5.0.11/microsoft.aspnetcore.cryptography.internal.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/5.0.11/microsoft.aspnetcore.cryptography.keyderivation.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/5.0.11/microsoft.aspnetcore.identity.entityframeworkcore.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.entityframeworkcore/5.0.11/microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.11/microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.entityframeworkcore.analyzers/5.0.11/microsoft.entityframeworkcore.analyzers.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.entityframeworkcore.design/5.0.11/microsoft.entityframeworkcore.design.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.entityframeworkcore.relational/5.0.11/microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.caching.abstractions/5.0.0/microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.caching.memory/5.0.0/microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.configuration.abstractions/5.0.0/microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.dependencyinjection/5.0.2/microsoft.extensions.dependencyinjection.5.0.2.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.identity.core/5.0.11/microsoft.extensions.identity.core.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.identity.stores/5.0.11/microsoft.extensions.identity.stores.5.0.11.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.logging/5.0.0/microsoft.extensions.logging.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/system.diagnostics.diagnosticsource/5.0.1/system.diagnostics.diagnosticsource.5.0.1.nupkg.sha512",
+    "/Users/amandeepsingh/.nuget/packages/system.reflection.emit/4.7.0/system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }

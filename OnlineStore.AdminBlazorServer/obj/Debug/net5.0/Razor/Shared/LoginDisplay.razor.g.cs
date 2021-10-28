@@ -89,13 +89,15 @@ using OnlineStore.AdminBlazorServer.Shared;
                 __builder2.OpenElement(2, "a");
                 __builder2.AddAttribute(3, "href", "Identity/Account/Manage");
                 __builder2.AddContent(4, "Hello, ");
+                __builder2.AddContent(5, 
 #nullable restore
 #line 3 "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/Shared/LoginDisplay.razor"
-__builder2.AddContent(5, context.User.Identity.Name);
+                                                  context.User.Identity.Name
 
 #line default
 #line hidden
 #nullable disable
+                );
                 __builder2.AddContent(6, "!");
                 __builder2.CloseElement();
                 __builder2.AddMarkupContent(7, "\r\n        ");
