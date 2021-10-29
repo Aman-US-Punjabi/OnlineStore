@@ -10,6 +10,10 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.AdminBlazorServer.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.AdminBlazorServer.Views.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.AdminBlazorServer.Views.pdb
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Ardalis.Specification.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Ardalis.Specification.EntityFrameworkCore.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/AutoMapper.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Humanizer.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -47,6 +51,10 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Core.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Infrastructure.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Infrastructure.pdb
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Core.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.csproj.AssemblyReference.cache
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.GeneratedMSBuildEditorConfig.editorconfig
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.AssemblyInfoInputs.cache
@@ -59,6 +67,7 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/Counter.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/ProductPages/ProductListPage.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Shared/LoginDisplay.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
@@ -73,6 +82,7 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/Counter.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/ProductPages/ProductListPage.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Shared/LoginDisplay.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
@@ -84,12 +94,12 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/_Host.cshtml.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.RazorAssemblyInfo.cache
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.RazorAssemblyInfo.cs
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/staticwebassets/OnlineStore.AdminBlazorServer.StaticWebAssets.Manifest.cache
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/staticwebassets/OnlineStore.AdminBlazorServer.StaticWebAssets.xml
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/scopedcss/Shared/MainLayout.razor.rz.scp.css
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/scopedcss/Shared/NavMenu.razor.rz.scp.css
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/scopedcss/bundle/OnlineStore.AdminBlazorServer.styles.css
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/scopedcss/projectbundle/OnlineStore.AdminBlazorServer.bundle.scp.css
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/staticwebassets/OnlineStore.AdminBlazorServer.StaticWebAssets.Manifest.cache
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/staticwebassets/OnlineStore.AdminBlazorServer.StaticWebAssets.xml
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.RazorTargetAssemblyInfo.cache
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.RazorTargetAssemblyInfo.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.Views.pdb
@@ -98,10 +108,3 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/ref/OnlineStore.AdminBlazorServer.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.genruntimeconfig.cache
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Ardalis.Specification.dll
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/Ardalis.Specification.EntityFrameworkCore.dll
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/AutoMapper.dll
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Core.dll
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Infrastructure.dll
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Infrastructure.pdb
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.Core.pdb
