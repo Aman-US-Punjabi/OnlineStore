@@ -281,6 +281,9 @@
       },
       "System.Reflection.Emit/4.7.0": {},
       "OnlineStore.Core/1.0.0": {
+        "dependencies": {
+          "Ardalis.Specification": "5.2.0"
+        },
         "runtime": {
           "OnlineStore.Core.dll": {}
         }

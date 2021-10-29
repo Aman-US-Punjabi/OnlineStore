@@ -9,10 +9,14 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.AssemblyInfoInputs.cache
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.AssemblyInfo.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.csproj.CopyComplete
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/ref/OnlineStore.Infrastructure.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.genruntimeconfig.cache
+<<<<<<< HEAD
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/obj/Debug/net5.0/OnlineStore.Infrastructure.csproj.CopyComplete
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/bin/Debug/net5.0/OnlineStore.Core.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.Infrastructure/bin/Debug/net5.0/OnlineStore.Core.pdb
+=======
+>>>>>>> dev

@@ -17,6 +17,9 @@ using OnlineStore.AdminBlazorServer.Areas.Identity;
 using OnlineStore.AdminBlazorServer.Data;
 using OnlineStore.Infrastructure.Data;
 using OnlineStore.Infrastructure.Identity;
+using OnlineStore.Infrastructure.Repositories;
+using OnlineStore.AdminBlazorServer.Interfaces;
+using OnlineStore.AdminBlazorServer.Services;
 
 namespace OnlineStore.AdminBlazorServer
 {
@@ -77,6 +80,20 @@ namespace OnlineStore.AdminBlazorServer
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddScoped<AuthenticationStateProvider, RevalidatingIdentityAuthenticationStateProvider<ApplicationUser>>();
+
+            // Add Mapper from Infrastructure Project
+            //services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+            // Add Mapper from current Project
+            services.AddAutoMapper(typeof(Startup));
+
+            // Add Repositories
+            services.AddScoped(typeof(EfRepository<>));
+            services.AddScoped(typeof(EfReadRepository<>));
+
+            // Add Services
+            services.AddScoped<IProductService, ProductService>();
+
             services.AddDatabaseDeveloperPageExceptionFilter();
             services.AddSingleton<WeatherForecastService>();
         }
