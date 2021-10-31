@@ -4,7 +4,6 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/appsettings.Development.json
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/appsettings.json
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.AdminBlazorServer.StaticWebAssets.xml
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/app.db
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.AdminBlazorServer.deps.json
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.AdminBlazorServer.runtimeconfig.json
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/bin/Debug/net5.0/OnlineStore.AdminBlazorServer.runtimeconfig.dev.json
@@ -71,6 +70,7 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/FetchData.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/Index.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/ProductPages/ProductListPage.razor.g.cs
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/ProductPages/ProductUpsert.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Shared/LoginDisplay.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Shared/SurveyPrompt.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/_Imports.razor.g.cs
@@ -86,6 +86,7 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/FetchData.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/Index.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/ProductPages/ProductListPage.razor.g.cs
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/ProductPages/ProductUpsert.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Shared/LoginDisplay.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Shared/SurveyPrompt.razor.g.cs
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/_Imports.razor.g.cs
@@ -111,5 +112,3 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/ref/OnlineStore.AdminBlazorServer.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.genruntimeconfig.cache
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/ProductPages/ProductUpsert.razor.g.cs
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/ProductPages/ProductUpsert.razor.g.cs

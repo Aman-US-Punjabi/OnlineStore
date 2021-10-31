@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using OnlineStore.Infrastructure.Data;
+using OnlineStore.Infrastructure.Identity;
 
 namespace OnlineStore.AdminBlazorServer
 {
@@ -16,29 +20,42 @@ namespace OnlineStore.AdminBlazorServer
         {
             var host = CreateHostBuilder(args).Build();
 
+            CreateDbIfNotExists(host);
+
+            host.Run();
+        }
+
+        private static void CreateDbIfNotExists(IHost host)
+        {
             using (var scope = host.Services.CreateScope())
             {
                 var services = scope.ServiceProvider;
                 var loggerFactory = services.GetRequiredService<ILoggerFactory>();
 
-                //try
-                //{
-                //    var catalogContext = services.GetRequiredService<CatalogDbContext>();
-                //    //await CatalogContextSeed.SeedAsync(catalogContext, loggerFactory);
+                try
+                {
+                    // Seed Roles and UserRoles data
+                    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
+                    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+                    var appIdentityDbContext = services.GetRequiredService<AppIdentityDbContext>();
 
-                //    var userManager = services.GetRequiredService<UserManager<ApplicationUser>>();
-                //    var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
-                //    await AppIdentityDbContextSeed.SeedAsync(userManager, roleManager);
-                //}
-                //catch (Exception ex)
-                //{
-                //    var logger = loggerFactory.CreateLogger<Program>();
-                //    logger.LogError(ex, "An error occurred seeding the DB.");
-                //}
+                    AppIdentityDbContextInitializer.SeedAsync(appIdentityDbContext, userManager, roleManager);
+
+                    // Seed Catalog Data
+                    //    var catalogContext = services.GetRequiredService<CatalogDbContext>();
+                    //    //await CatalogContextSeed.SeedAsync(catalogContext, loggerFactory);
+                    var catalogDbContext = services.GetRequiredService<CatalogDbContext>();
+                    catalogDbContext.Database.EnsureCreated();
+                    CatalogDbInitializer.Initialize(catalogDbContext);
+                }
+                catch (Exception ex)
+                {
+                    var logger = services.GetRequiredService<ILogger<Program>>();
+                    logger.LogError(ex, "An error occurred creating the DB.");
+                }
             }
-
-            host.Run();
         }
+
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
             Host.CreateDefaultBuilder(args)
