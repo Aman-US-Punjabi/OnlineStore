@@ -1,6 +1,54 @@
 ﻿@page "/products"
 
-<h3>Products</h3>
+<div class="container my-5">
+    <div class="row mt-4">
+        <div class="col-8">
+            <h3>Products</h3>
+        </div>
+
+        <div class="col-3 offset-1">
+            <NavLink href="product/create" class="btn btn-info form-control">Add New Product</NavLink>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+            @if (Products != null && Products.Any())
+            {
+                foreach (var product in Products)
+                {
+                    <div class="col">
+                        <div class="card" style="width: 18rem;">
+                            <img src="https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-family-select-2021?wid=940&hei=1112&fmt=jpeg&qlt=80&.v=1617135051000" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">@product.Name</h5>
+                                <div class="row">
+                                    <div class="col">
+                                        <p class="fs-5">$ @product.Price</p>
+                                        <p>Quantity: @product.Quantity</p>
+                                    </div>
+                                </div>
+                                <p class="card-text">@product.Description</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <a href="/product/edit/@product.Id" class="btn btn-primary">Edit</a>
+                                    </div>
+                                    <div class="col">
+                                        <a href="#" class="btn btn-danger">Delete</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+            else
+            {
+                <h5>No Products available!</h5>
+            }
+        </div>
+    </div>
+</div>
 
 @code {
 

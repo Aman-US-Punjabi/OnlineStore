@@ -1,0 +1,53 @@
+﻿@page "/product/create"
+@page "/product/edit/{Id:int}"
+
+<div class="row my-5">
+    <h3 class="card-title m-4 text-center">@Title Product</h3>
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body m-5">
+                <EditForm Model="ProductModel" OnValidSubmit="HandleProductUpsert">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+                    <div class="row row-cols-1 row-cols-sm-2">
+                        <div class="col">
+                            <div class="form-group">
+                                <label>Name</label>
+                                <InputText @bind-Value="ProductModel.Name" class="form-control"></InputText>
+                                <ValidationMessage For="()=> ProductModel.Name"></ValidationMessage>
+                            </div>
+                            <div class="form-group">
+                                <label>Price</label>
+                                <InputNumber @bind-Value="ProductModel.Price" class="form-control"></InputNumber>
+                                <ValidationMessage For="() => ProductModel.Price"></ValidationMessage>
+                            </div>
+                            <div class="form-group">
+                                <label>Quantity</label>
+                                <InputNumber @bind-Value="ProductModel.Quantity" class="form-control"></InputNumber>
+                                <ValidationMessage For="()=> ProductModel.Quantity"></ValidationMessage>
+                            </div>
+                            <div class="form-group">
+                                <label>Description</label>
+                                <InputTextArea @bind-Value="ProductModel.Description" class="form-control"></InputTextArea>
+                                <ValidationMessage For="()=> ProductModel.Description"></ValidationMessage>
+                            </div>
+                            @*<div class="form-group">
+                                    <label>Is Discountinued</label>
+                                    <InputRadio ></InputRadio>
+                                </div>*@
+
+                        </div>
+                    </div>
+                    <div class="form-group text-center mt-5">
+                        <button class="btn btn-primary">@Title Product</button>
+                        <NavLink href="products" class="btn btn-secondary">Back to Index</NavLink>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+
+@code {
+
+}
