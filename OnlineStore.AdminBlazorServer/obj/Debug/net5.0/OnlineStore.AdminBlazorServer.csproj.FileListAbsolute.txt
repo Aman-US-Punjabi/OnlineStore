@@ -111,3 +111,5 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/ref/OnlineStore.AdminBlazorServer.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/OnlineStore.AdminBlazorServer.genruntimeconfig.cache
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/RazorDeclaration/Pages/ProductPages/ProductUpsert.razor.g.cs
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/obj/Debug/net5.0/Razor/Pages/ProductPages/ProductUpsert.razor.g.cs
