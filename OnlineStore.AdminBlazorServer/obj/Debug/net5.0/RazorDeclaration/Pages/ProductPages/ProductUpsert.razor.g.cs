@@ -82,6 +82,20 @@ using OnlineStore.AdminBlazorServer.Shared;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 12 "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/_Imports.razor"
+using OnlineStore.Core;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 4 "/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.AdminBlazorServer/Pages/ProductPages/ProductUpsert.razor"
+           [Authorize(Roles = SD.Role_Admin)]
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/product/create")]
     [Microsoft.AspNetCore.Components.RouteAttribute("/product/edit/{Id:int}")]
     public partial class ProductUpsert : Microsoft.AspNetCore.Components.ComponentBase

@@ -1,5 +1,7 @@
 ﻿@page "/product/create"
 @page "/product/edit/{Id:int}"
+@*Only authorized Users will be able to visit this page*@
+@attribute [Authorize(Roles = SD.Role_Admin)]
 
 <div class="row my-5">
     <h3 class="card-title m-4 text-center">@Title Product</h3>
