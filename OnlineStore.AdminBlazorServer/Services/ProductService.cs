@@ -5,17 +5,18 @@ using AutoMapper;
 using OnlineStore.AdminBlazorServer.DTOs;
 using OnlineStore.AdminBlazorServer.Interfaces;
 using OnlineStore.Core.Entities.Catalog;
+using OnlineStore.Core.Interfaces.Repositories;
 using OnlineStore.Infrastructure.Repositories;
 
 namespace OnlineStore.AdminBlazorServer.Services
 {
     public class ProductService : IProductService
     {
-        private readonly EfReadRepository<Product> _productReadRepository;
-        private readonly EfRepository<Product> _productRepository;
+        private readonly IAsyncReadRepository<Product> _productReadRepository;
+        private readonly IAsyncRepository<Product> _productRepository;
         private readonly IMapper _mapper;
 
-        public ProductService(EfRepository<Product> productRepository, EfReadRepository<Product> productReadRepository, IMapper mapper)
+        public ProductService(IAsyncRepository<Product> productRepository, IAsyncReadRepository<Product> productReadRepository, IMapper mapper)
         {
             _productRepository = productRepository;
             _productReadRepository = productReadRepository;

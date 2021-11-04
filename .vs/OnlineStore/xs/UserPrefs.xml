@@ -1,23 +1,29 @@
 ﻿<Properties StartupConfiguration="{4B830537-9744-4332-BB73-EABDE1A9C2A0}|Default">
   <MonoDevelop.Ide.ItemProperties.OnlineStore.AdminBlazorServer PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineStore.AdminBlazorServer/Services/ProductService.cs">
+    <Files>
+      <File FileName="OnlineStore.AdminBlazorServer.Tests/ProductServiceTests.cs" Line="27" Column="21" />
+      <File FileName="OnlineStore.AdminBlazorServer/Services/ProductService.cs" Line="19" Column="96" />
+      <File FileName="OnlineStore.Infrastructure/Repositories/EfRepository.cs" Line="9" Column="67" />
+      <File FileName="OnlineStore.Core/Interfaces/Repositories/IAsyncRepository.cs" Line="1" Column="1" />
+    </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnlineStore" expanded="True">
-            <Node name="OnlineStore.Core" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="EntityValidations" expanded="True" />
+            <Node name="OnlineStore.AdminBlazorServer" expanded="True">
+              <Node name="Services" expanded="True">
+                <Node name="ProductService.cs" selected="True" />
               </Node>
             </Node>
-            <Node name="OnlineStore.Core.Tests" expanded="True" />
-            <Node name="OnlineStore.Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Identity" expanded="True" />
-              <Node name="Mapper" expanded="True" />
-              <Node name="Repositories" expanded="True">
-                <Node name="EfRepository.cs" selected="True" />
+            <Node name="OnlineStore.AdminBlazorServer.Tests" expanded="True" />
+            <Node name="OnlineStore.Core" expanded="True">
+              <Node name="Interfaces" expanded="True">
+                <Node name="Repositories" expanded="True" />
               </Node>
+            </Node>
+            <Node name="OnlineStore.Infrastructure" expanded="True">
+              <Node name="Repositories" expanded="True" />
             </Node>
           </Node>
         </State>

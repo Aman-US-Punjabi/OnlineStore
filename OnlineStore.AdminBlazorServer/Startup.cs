@@ -20,6 +20,7 @@ using OnlineStore.Infrastructure.Identity;
 using OnlineStore.Infrastructure.Repositories;
 using OnlineStore.AdminBlazorServer.Interfaces;
 using OnlineStore.AdminBlazorServer.Services;
+using OnlineStore.Core.Interfaces.Repositories;
 
 namespace OnlineStore.AdminBlazorServer
 {
@@ -88,8 +89,8 @@ namespace OnlineStore.AdminBlazorServer
             services.AddAutoMapper(typeof(Startup));
 
             // Add Repositories
-            services.AddScoped(typeof(EfRepository<>));
-            services.AddScoped(typeof(EfReadRepository<>));
+            services.AddScoped(typeof(IAsyncRepository<>), typeof(EfRepository<>));
+            services.AddScoped(typeof(IAsyncReadRepository<>), typeof(EfReadRepository<>));
 
             // Add Services
             services.AddScoped<IProductService, ProductService>();
