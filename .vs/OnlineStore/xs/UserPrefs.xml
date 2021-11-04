@@ -1,31 +1,26 @@
 ﻿<Properties StartupConfiguration="{4B830537-9744-4332-BB73-EABDE1A9C2A0}|Default">
   <MonoDevelop.Ide.ItemProperties.OnlineStore.AdminBlazorServer PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineStore.AdminBlazorServer/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineStore.Core/Entities/EntityValidations/DateInFutureAttribute.cs">
     <Files>
-      <File FileName="OnlineStore.AdminBlazorServer/Pages/ProductPages/ProductUpsert.razor" Line="5" Column="1" />
-      <File FileName="OnlineStore.Core/SD.cs" Line="1" Column="1" />
-      <File FileName="OnlineStore.AdminBlazorServer/_Imports.razor" Line="12" Column="24" />
-      <File FileName="OnlineStore.AdminBlazorServer/App.razor" Line="1" Column="1" />
-      <File FileName="OnlineStore.AdminBlazorServer/Startup.cs" Line="1" Column="1" />
+      <File FileName="OnlineStore.AdminBlazorServer/Pages/ProductPages/ProductUpsert.razor" Line="39" Column="41" />
+      <File FileName="OnlineStore.Core/SD.cs" />
+      <File FileName="OnlineStore.AdminBlazorServer/_Imports.razor" />
+      <File FileName="OnlineStore.AdminBlazorServer/App.razor" />
+      <File FileName="OnlineStore.AdminBlazorServer/Startup.cs" />
+      <File FileName="OnlineStore.AdminBlazorServer/DTOs/ProductDTO.cs" Line="1" Column="1" />
+      <File FileName="OnlineStore.Core/Entities/EntityValidations/DateInFutureAttribute.cs" Line="34" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnlineStore" expanded="True">
             <Node name="Solution Items" expanded="True" />
-            <Node name="OnlineStore.AdminBlazorServer" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="ProductPages" expanded="True">
-                  <Node name="ProductUpsert.razor" expanded="True" />
-                </Node>
+            <Node name="OnlineStore.Core" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="EntityValidations" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
-            <Node name="OnlineStore.Core" expanded="True" />
-            <Node name="OnlineStore.Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Identity" expanded="True" />
-            </Node>
+            <Node name="OnlineStore.Infrastructure" expanded="True" />
           </Node>
         </State>
       </Pad>
