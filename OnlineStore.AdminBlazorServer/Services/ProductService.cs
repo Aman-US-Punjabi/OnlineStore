@@ -23,21 +23,25 @@ namespace OnlineStore.AdminBlazorServer.Services
             _mapper = mapper;
         }
 
-        public Task<Product> CreateProduct(ProductDTO productDTO)
+        public async Task<Product> CreateProduct(ProductDTO productDTO)
         {
             Product productToCreate = _mapper.Map<ProductDTO, Product>(productDTO);
 
-            return _productRepository.AddAsync(productToCreate);
+            var product = await _productRepository.AddAsync(productToCreate);
+            return product;
         }
 
-        public Task<Product> GetProductById(int id)
+        public async Task<Product> GetProductById(int id)
         {
-            return _productReadRepository.GetByIdAsync(id);
+            var product = await _productReadRepository.GetByIdAsync(id);
+            return product;
         }
 
-        public Task<List<Product>> GetProducts()
+        public async Task<List<Product>> GetProducts()
         {
-            return _productReadRepository.ListAsync();
+            var products = await _productReadRepository.ListAsync();
+
+            return products;
         }
 
         public async Task UpdateProduct(Product productToUpdate)
