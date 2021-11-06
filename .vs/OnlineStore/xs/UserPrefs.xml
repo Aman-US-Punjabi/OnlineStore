@@ -8,75 +8,7 @@
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OnlineStore" expanded="True">
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> dev
-=======
->>>>>>> dev
-            <Node name="Solution Items" expanded="True" />
-=======
->>>>>>> dev
-            <Node name="OnlineStore.Core" expanded="True">
-              <Node name="Entities" expanded="True">
-                <Node name="EntityValidations" expanded="True" />
-=======
-            <Node name="OnlineStore.AdminBlazorServer" expanded="True">
-              <Node name="Pages" expanded="True">
-                <Node name="ProductPages" expanded="True">
-                  <Node name="ProductListPage.razor" expanded="True" />
-                </Node>
->>>>>>> dev
-              </Node>
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="OnlineStore.AdminBlazorServer.Tests" expanded="True">
-              <Node name="ProductServiceTests.cs" selected="True" />
-            </Node>
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> dev
-            <Node name="OnlineStore.Infrastructure" expanded="True" />
-=======
->>>>>>> dev
-=======
->>>>>>> feature/add-RespistoryInterfaceInCore-Add-RespositoryInInfra
->>>>>>> dev
-=======
->>>>>>> dev
-=======
-            <Node name="OnlineStore.Infrastructure" expanded="True" />
->>>>>>> dev
-=======
-            <Node name="OnlineStore.Core.Tests" expanded="True" />
-            <Node name="OnlineStore.Infrastructure" expanded="True">
-              <Node name="Data" expanded="True" />
-              <Node name="Identity" expanded="True" />
-              <Node name="Mapper" expanded="True" />
-              <Node name="Repositories" expanded="True">
-                <Node name="EfRepository.cs" selected="True" />
-=======
-            <Node name="OnlineStore.Core" expanded="True">
-              <Node name="Interfaces" expanded="True">
-                <Node name="Repositories" expanded="True" />
->>>>>>> dev
-              </Node>
-            </Node>
->>>>>>> dev
-=======
-            <Node name="OnlineStore.PublicApi" selected="True" />
->>>>>>> dev
-          </Node>
+          <Node name="OnlineStore" expanded="True" selected="True" />
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
