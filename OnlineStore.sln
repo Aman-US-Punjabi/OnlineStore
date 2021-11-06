@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.Core.Tests", "O
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.AdminBlazorServer.Tests", "OnlineStore.AdminBlazorServer.Tests\OnlineStore.AdminBlazorServer.Tests.csproj", "{DB320781-AB81-40CA-ADC2-3263C20B4513}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineStore.PublicApi", "OnlineStore.PublicApi\OnlineStore.PublicApi.csproj", "{1422DCA9-662A-46A5-BB5A-AAD93585A111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{DB320781-AB81-40CA-ADC2-3263C20B4513}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB320781-AB81-40CA-ADC2-3263C20B4513}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB320781-AB81-40CA-ADC2-3263C20B4513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1422DCA9-662A-46A5-BB5A-AAD93585A111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1422DCA9-662A-46A5-BB5A-AAD93585A111}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1422DCA9-662A-46A5-BB5A-AAD93585A111}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1422DCA9-662A-46A5-BB5A-AAD93585A111}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
