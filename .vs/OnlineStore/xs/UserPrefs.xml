@@ -2,17 +2,14 @@
   <MonoDevelop.Ide.ItemProperties.OnlineStore.AdminBlazorServer PreferredExecutionTarget="/Applications/Safari.app" />
   <MonoDevelop.Ide.Workbench ActiveDocument="OnlineStore.PublicApi/Startup.cs">
     <Files>
-      <File FileName="OnlineStore.AdminBlazorServer/Startup.cs" Line="35" Column="1" />
-      <File FileName="OnlineStore.PublicApi/Startup.cs" Line="26" Column="1" />
+      <File FileName="OnlineStore.AdminBlazorServer/Startup.cs" Line="76" Column="1" />
+      <File FileName="OnlineStore.PublicApi/Startup.cs" Line="101" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="OnlineStore" expanded="True">
-            <Node name="OnlineStore.AdminBlazorServer" expanded="True" />
-            <Node name="OnlineStore.PublicApi" expanded="True">
-              <Node name="Startup.cs" selected="True" />
-            </Node>
+            <Node name="OnlineStore.PublicApi" selected="True" />
           </Node>
         </State>
       </Pad>
@@ -24,6 +21,9 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <DisabledProjects>
+    <String>OnlineStore.PublicApi/OnlineStore.PublicApi.csproj</String>
+  </DisabledProjects>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
