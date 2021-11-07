@@ -1,14 +1,42 @@
 ﻿<Properties StartupConfiguration="{4B830537-9744-4332-BB73-EABDE1A9C2A0}|Default">
   <MonoDevelop.Ide.ItemProperties.OnlineStore.AdminBlazorServer PreferredExecutionTarget="/Applications/Safari.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineStore.PublicApi/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="OnlineStore.PublicApi/Endpoints/ProductEndpoints/ListAll.cs">
     <Files>
-      <File FileName="OnlineStore.AdminBlazorServer/Startup.cs" Line="76" Column="1" />
-      <File FileName="OnlineStore.PublicApi/Startup.cs" Line="103" Column="17" />
+      <File FileName="OnlineStore.Core/Entities/Catalog/Product.cs" Line="28" Column="10" />
+      <File FileName="OnlineStore.PublicApi/Controllers/ProductController.cs" Line="6" Column="1" />
+      <File FileName="OnlineStore.PublicApi/Controllers/WeatherForecastController.cs" Line="19" Column="69" />
+      <File FileName="OnlineStore.PublicApi/Helpers/Logger/BaseMessage.cs" Line="13" Column="55" />
+      <File FileName="OnlineStore.PublicApi/Helpers/Logger/BaseResponse.cs" Line="7" Column="53" />
+      <File FileName="OnlineStore.PublicApi/Helpers/Logger/BaseRequest.cs" Line="8" Column="6" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/GetById.GetByIdProductRequest.cs" Line="11" Column="1" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/Create.cs" Line="47" Column="60" />
+      <File FileName="OnlineStore.PublicApi/Helpers/Mapper/MappingProfile.cs" Line="12" Column="58" />
+      <File FileName="OnlineStore.AdminBlazorServer/Mapper/MappingProfile.cs" Line="12" Column="59" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/GetById.cs" Line="31" Column="39" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/Update.cs" Line="15" Column="42" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/Update.UpdateProductRequest.cs" Line="14" Column="19" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/ListAll.cs" Line="11" Column="42" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/ListAll.ListAllProductResponse.cs" Line="18" Column="71" />
+      <File FileName="OnlineStore.PublicApi/Endpoints/ProductEndpoints/ListAll.ListAllProductRequest.cs" Line="8" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="OnlineStore" expanded="True" selected="True" />
+          <Node name="OnlineStore" expanded="True">
+            <Node name="OnlineStore.PublicApi" expanded="True" selected="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Endpoints" expanded="True">
+                <Node name="ProductEndpoints" expanded="True">
+                  <Node name="ListAll.cs" expanded="True" />
+                </Node>
+              </Node>
+              <Node name="Helpers" expanded="True">
+                <Node name="Logger" expanded="True" />
+                <Node name="Mapper" expanded="True" />
+              </Node>
+              <Node name="appsettings.json" expanded="True" />
+            </Node>
+          </Node>
         </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
