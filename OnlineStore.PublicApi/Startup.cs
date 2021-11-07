@@ -16,8 +16,10 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using OnlineStore.Core.Interfaces.Repositories;
 using OnlineStore.Infrastructure.Data;
 using OnlineStore.Infrastructure.Identity;
+using OnlineStore.Infrastructure.Repositories;
 
 namespace OnlineStore.PublicApi
 {
@@ -91,6 +93,11 @@ namespace OnlineStore.PublicApi
                     .AddEntityFrameworkStores<AppIdentityDbContext>()
                     .AddDefaultTokenProviders();
 
+
+            // Add Repositories
+            services.AddScoped(typeof(IAsyncRepository<>), typeof(EfRepository<>));
+            services.AddScoped(typeof(IAsyncReadRepository<>), typeof(EfReadRepository<>));
+
             //var baseUrlConfig = new BaseUrlConfiguration();
             //Configuration.Bind(BaseUrlConfiguration.CONFIG_NAME, baseUrlConfig);
 
@@ -126,6 +133,10 @@ namespace OnlineStore.PublicApi
             //});
 
             services.AddControllers();
+
+            // Add AutoMapper for this project
+            services.AddAutoMapper(typeof(Startup).Assembly);
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "OnlineStore.PublicApi", Version = "v1" });

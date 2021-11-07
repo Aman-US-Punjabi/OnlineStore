@@ -10,6 +10,7 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Ardalis.Specification.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Ardalis.Specification.EntityFrameworkCore.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/AutoMapper.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Humanizer.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll
@@ -40,6 +41,7 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/SQLitePCLRaw.core.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Swashbuckle.AspNetCore.Annotations.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -62,7 +64,6 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/OnlineStore.Infrastructure.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/OnlineStore.Core.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/bin/Debug/net5.0/OnlineStore.Infrastructure.pdb
-/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/OnlineStore.PublicApi.csproj.AssemblyReference.cache
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/OnlineStore.PublicApi.GeneratedMSBuildEditorConfig.editorconfig
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/OnlineStore.PublicApi.AssemblyInfoInputs.cache
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/OnlineStore.PublicApi.AssemblyInfo.cs
@@ -78,3 +79,4 @@
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/ref/OnlineStore.PublicApi.dll
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/OnlineStore.PublicApi.pdb
 /Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/OnlineStore.PublicApi.genruntimeconfig.cache
+/Users/amandeepsingh/Projects/Dotnet6/OnlineStore/OnlineStore.PublicApi/obj/Debug/net5.0/OnlineStore.PublicApi.csproj.AssemblyReference.cache

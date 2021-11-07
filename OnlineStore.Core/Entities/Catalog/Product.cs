@@ -18,6 +18,15 @@ namespace OnlineStore.Core.Entities.Catalog
 
         public string GetFormattedBasePrice() => Price.ToString("0.00");
 
+        public void UpdateDetails(string name, string description, double price, int quantity, bool isDiscountinued)
+        {
+            if (!String.IsNullOrEmpty(name)) Name = name;
+            if (!String.IsNullOrEmpty(description)) Description = description;
+            if (!String.IsNullOrEmpty(price.ToString())) Price = price;
+            if (!String.IsNullOrEmpty(quantity.ToString())) Quantity = quantity;
+            IsDiscountinued = isDiscountinued;
+        }
+
         public Product()
         {
         }

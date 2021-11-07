@@ -13,6 +13,9 @@
     <None Remove="Ardalis.Specification" />
     <None Remove="Constants\" />
     <None Remove="Entities\EntityValidations\" />
+    <None Remove="Specifications\" />
+    <None Remove="Specifications\ProductSpecifications\" />
+    <None Remove="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
@@ -22,6 +25,9 @@
     <Folder Include="Interfaces\Repositories\" />
     <Folder Include="Constants\" />
     <Folder Include="Entities\EntityValidations\" />
+    <Folder Include="Specifications\" />
+    <Folder Include="Specifications\ProductSpecifications\" />
+    <Folder Include="Exceptions\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Ardalis.Specification" Version="5.2.0" />
